@@ -15,7 +15,7 @@ Using a text editor, make a file consisting of a single line like this:
 	
 Your actual file could be something like this (but your file will differ):
 
-	c:\users\waldo\desktop\glypher.exe "C:\Program Files (x86)\Steam\userdata\xxxxxxxxx\760\remote\275850\screenshots
+	c:\users\waldo\desktop\glypher.exe "C:\Program Files (x86)\Steam\userdata\xxxxxxxxx\760\remote\275850\screenshots"
 
 Name this batch file with a .bat extension and place it in a convenient place.  Remember to use quotes around any path name that has spaces in it.
 
