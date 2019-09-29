@@ -10,11 +10,12 @@ Unzip the glypher.zip archive to any convenient place.  I'll call the path name 
 The program must be told where to find the NMS screenshot files.  To view/change this on Steam, use the Steam application on PC and go to Settings/In-Game/Screenshot Folder and it will tell you the path.  I'll call this "screenshot_path".
 	
 Using a text editor, make a file consisting of a single line like this:
+
 	glypher_path\glypher.exe screenshot_path
 	
-Your actual file could be something like this (but your file will differ)":
+Your actual file could be something like this (but your file will differ):
 
-c:\users\waldo\desktop\glypher.exe "C:\Program Files (x86)\Steam\userdata\xxxxxxxxx\760\remote\275850\screenshots"
+	c:\users\waldo\desktop\glypher.exe "C:\Program Files (x86)\Steam\userdata\xxxxxxxxx\760\remote\275850\screenshots
 
 Name this batch file with a .bat extension and place it in a convenient place.  Remember to use quotes around any path name that has spaces in it.
 
@@ -25,9 +26,12 @@ A more interesting use case is to use Glypher while playing NMS.  If you leave t
 
 To create a screenshot that contains the glyphs, open Photo Mode in NMS to enable the glyphs on the screen, then press the Steam "Screenshot Shortcut Key" (F12 by default) to make the screenshot.  Immediately, the clipboard contents will reflect the coordinates in the on-screen glyphs.
 
-You can add "-portal" to the command line to show/copy the coordinates in portal coordinate format. After pasting the portal code to a program such as Excel, you can reformat that cell using the NMS Glyph font from https://www.reddit.com/r/NoMansSkyTheGame/comments/97w347/download_nmsglyphs_fonts_for_your_banners/ to see the glyphs as symbols rather than as hex codes.
+You can add "-portal" to the end of the command line to show/copy the coordinates in portal coordinate format. After pasting the portal code to a program such as Excel, you can reformat that cell using the NMS Glyph font from https://www.reddit.com/r/NoMansSkyTheGame/comments/97w347/download_nmsglyphs_fonts_for_your_banners/ to see the glyphs as symbols rather than as hex codes.
 
+### Tips
 Darker backgrounds in the lower left portion of the screen work best.  Both JPEG and PNG files work, but PNG works better due to not being compressed (check "Save an uncompressed copy" in the Steam settings).
+
+You could put an alias for your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
 
 This version of Glypher only knows about 1920 x 1080 (FHD) images, but I can add other resolutions if there is a demand for that.
 
