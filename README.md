@@ -6,13 +6,13 @@ Glypher is a Windows command line program that decodes and exports the No Man's 
 With this program, you do not need to retype coordinate information or use Signal Boosters to get the coordinates.  It even works in space before you have landed your ship.
 
 How to Use:
-	Unzip the glypher.zip archive to any convenient place.  I'll call the path name to this program "<glypher path>"
-	The program must be told where to find the NMS screenshot files.  To view/change this on Steam, use the Steam application on PC and go to Settings/In-Game/Screenshot Folder and it will tell you the path.
-	I'll call this "<screenshot path>".
-	Using a text editor, make a file consisting of a single line like this:
+Unzip the glypher.zip archive to any convenient place.  I'll call the path name to this program "<glypher path>".
+The program must be told where to find the NMS screenshot files.  To view/change this on Steam, use the Steam application on PC and go to Settings/In-Game/Screenshot Folder and it will tell you the path.
+I'll call this "<screenshot path>".
+Using a text editor, make a file consisting of a single line like this:
 		<glypher path>\glypher.exe <screenshot path>
-	Name this batch file with a .bat extension and place it in a convenient place.
-	You should now have a file that has one line that says something like:
+Name this batch file with a .bat extension and place it in a convenient place.
+You should now have a file that has one line that says something like:
 		c:\users\waldo\desktop\glypher.exe "C:\Program Files (x86)\Steam\userdata\xxxxxxxxx\760\remote\275850\screenshots"
 	Your file will differ.  Remember to use quotes around any path name that has spaces in it.
 	To run the program, double-click the batch file icon.  A console window will open and the current galactic coordinates will be shown (if present in the most recent screenshot).  Glypher will also export the address to the clipboard.  Move to your favorite spreadsheet, click in the desired cell, and paste.
