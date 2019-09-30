@@ -35,4 +35,4 @@ Darker backgrounds in the lower left portion of the screen work best.  Both JPEG
 
 You could put an alias for your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
 
-No Man's Sky's display of portal glyphs in photo mode only works properly for screen widths of 1600 or more.  Glypher has been tested at 1920x1080.  Higher resolutions should also work, but have not been tested.
+No Man's Sky's display of portal glyphs in photo mode only works properly for screen widths of 1600 or more.  Glypher has been tested at 1920x1080.  NMS draws the glyphs slightly differently at other resolutions.  If you have problems with other resolutions, please send me two PNG screenshot images containing all 16 glyphs and I will look into improving the recognition accuracy.
