@@ -31,8 +31,8 @@ You can add "-portal" to the end of the command line to show/copy the coordinate
 ### Tips
 After pasting a portal code to a program such as Excel, you can reformat that cell using the NMS Glyph font from https://www.reddit.com/r/NoMansSkyTheGame/comments/97w347/download_nmsglyphs_fonts_for_your_banners/ to see the glyphs as symbols rather than as hex codes.
 
-Darker backgrounds in the lower left portion of the screen work best.  Both JPEG and PNG files work, but PNG works better due to not being compressed (check "Save an uncompressed copy" in the Steam settings).
+Darker backgrounds in the lower left portion of the screen work best.  JPEG, PNG, and BMP files will work. PNG is preferred due to not using lossy compression (check "Save an uncompressed copy" in the Steam settings).
 
 You could put an alias for your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
 
-No Man's Sky's display of portal glyphs in photo mode only works properly for screen widths of 1600 or more.  Glypher has been tested at 1920x1080.  NMS draws the glyphs slightly differently at other resolutions.  If you have problems with other resolutions, please create an issue and send me two PNG screenshot images containing all 16 glyphs and I will look into improving the recognition accuracy at that resolution.
+No Man's Sky's display of portal glyphs in photo mode only works properly for screen widths of 1600 or more.  Glypher has been tested primarily at 1920x1080.  If you have problems with other resolutions, please create an issue for this GitHub project and send me two PNG screenshot images containing all 16 glyphs and I will look into improving the recognition accuracy at that resolution.
