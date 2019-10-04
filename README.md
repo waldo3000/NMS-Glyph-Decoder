@@ -1,7 +1,7 @@
 # Glypher
 ## Decodes No Man's Sky location from on-screen symbols
 
-Glypher is a Windows command line program that decodes and exports the No Man's Sky portal glyphs seen on the bottom of the screen in photo mode.  These glyphs are used with the portals to transport to another location.  In addition, they can be converted to galactic coordinates for use with other third-party utilities.  I made Glypher to help record places I have visited.  It can also be useful when doing Black Hole Suns mapping.
+Glypher is a Windows command line program that decodes and exports the No Man's Sky portal glyphs seen on the bottom of the screen in photo mode.  These glyphs are used with the portals to transport to another location.  In addition, they can be converted to galactic coordinates for use with other third-party utilities.
 
 With this program, you do not need to retype coordinate information or use Signal Boosters to get the coordinates.  It even works in space before you have landed your ship.
 
@@ -31,7 +31,7 @@ You can add "-portal" to the end of the command line to show/copy the coordinate
 ### Tips
 After pasting a portal code to a program such as Excel, you can reformat that cell using the NMS Glyph font from https://www.reddit.com/r/NoMansSkyTheGame/comments/97w347/download_nmsglyphs_fonts_for_your_banners/ to see the glyphs as symbols rather than as hex codes.
 
-Darker backgrounds in the lower left portion of the screen work best.  JPEG, PNG, and BMP files will work. PNG is preferred due to not using lossy compression (check "Save an uncompressed copy" in the Steam settings).
+Darker backgrounds in the lower left portion of the screen work best.  PNG format screenshots are preferred due to not using lossy compression (check "Save an uncompressed copy" in the Steam settings).
 
 You could put an alias for your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
 
