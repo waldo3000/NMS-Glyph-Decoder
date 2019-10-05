@@ -33,6 +33,6 @@ After pasting a portal code to a program such as Excel, you can reformat that ce
 
 Darker backgrounds in the lower left portion of the screen work best.  PNG format screenshots are preferred due to not using lossy compression (check "Save an uncompressed copy" in the Steam settings).
 
-You could put an alias for your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
+You could put a shortcut to your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
 
 The position of the glyphs on the screen changed in NMS version 2.13, so screenshots from before 2.13 may not be compatible.
