@@ -35,3 +35,4 @@ Darker backgrounds in the lower left portion of the screen work best.  PNG forma
 
 You could put an alias for your batch file in the Windows Startup folder if you want Glypher to run each time at startup.
 
+The position of the glyphs on the screen changed in NMS version 2.13, so screenshots from before 2.13 may not be compatible.
