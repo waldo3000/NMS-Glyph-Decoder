@@ -1,7 +1,7 @@
 # Glypher
 ## Decodes No Man's Sky location from on-screen symbols
 
-Glypher is a Windows command line program that decodes and exports the No Man's Sky portal glyphs seen on the bottom of the screen in photo mode.  These glyphs can be used to create a log of visited places or they can be used to map the locations of black holes.
+Glypher is a Windows command line program that decodes and exports the No Man's Sky portal glyphs seen on the bottom of the screen in photo mode.  These glyphs can be shared with others, used to create a log of visited places, or used to map the locations of black holes.
 
 With this program, you do not need to retype coordinate information or use Signal Boosters to get the coordinates.  It even works in space before you have landed your ship.
 
